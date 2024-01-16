@@ -1,0 +1,17 @@
+times = (
+         'Palmeiras','Gremio','Atletico-MG','Flamengo','Botafogo','Bragantino','Fluminense','Athletico-PR','Internacional','Fortaleza','Sao Paulo','Cuiaba', 'Corinthians'
+         )
+print("-=-" * 20)
+print(f"Lista de times do brasileirao {times}")
+print("-=-" * 20)
+print("-=-" * 20)
+print(f"Os 5 primeiros sao {times[ :5]}")
+print("-=-" * 20)
+print("-=-" * 20)
+print(f"Os 4 ultimos sao {times[-4:]}")
+print("-=-" * 20)
+print("-=-" * 20)
+print(f"Em ordem alfabetica e {sorted(times)}")
+print("-=-" * 20)
+print("-=-" * 20)
+print(f'Flamengo esta na {times.index("Flamengo")} posicao')
